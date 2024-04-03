@@ -186,8 +186,8 @@ proxy:
     labels: {}
     annotations: {}
     nodePorts:
-      http:
-      https:
+      http: 30080
+      https: 30433
     disableHttpPort: false
     extraPorts: []
     loadBalancerIP:
