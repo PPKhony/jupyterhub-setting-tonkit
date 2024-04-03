@@ -68,7 +68,7 @@ hub:
       accessModes:
         - ReadWriteOnce
       storage: 1Gi
-      subPath:
+      subPath: ~/jupyter
       storageClassName:
     url:
     password:
